@@ -27,7 +27,7 @@ namespace MainNamespace{
         Operations value = new Operations();
         Console.WriteLine(value.PlusOperator(10,20));
         Console.WriteLine(value.MinusOperator(10,20));
-        Console.WriteLine(value.DivideOperator(10,20));
+        Console.WriteLine(value.DivideOperator(100,20));
         Console.WriteLine(value.MultiplyOperator(10,20));
         Console.WriteLine(value.ModulusOperator(10,20));
     }
