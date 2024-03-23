@@ -12,3 +12,4 @@ C:\Users\Student\Desktop\Coding Playground\.NET Playground\.NET\DemoConsoleApp\o
 C:\Users\Student\Desktop\Coding Playground\.NET Playground\.NET\DemoConsoleApp\obj\Debug\net8.0\DemoConsoleApp.pdb
 C:\Users\Student\Desktop\Coding Playground\.NET Playground\.NET\DemoConsoleApp\obj\Debug\net8.0\DemoConsoleApp.genruntimeconfig.cache
 C:\Users\Student\Desktop\Coding Playground\.NET Playground\.NET\DemoConsoleApp\obj\Debug\net8.0\ref\DemoConsoleApp.dll
+C:\Users\Student\Desktop\Coding Playground\.NET Playground\.NET\DemoConsoleApp\obj\Debug\net8.0\DemoConsoleApp.sourcelink.json
