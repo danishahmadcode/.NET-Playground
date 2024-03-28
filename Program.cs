@@ -1,35 +1,29 @@
-﻿namespace Arithmetic{
-public class Operations
-{
-    public int PlusOperator(int num1, int num2){
-        return num1 + num2;
-    }
-    public int MinusOperator(int num1, int num2){
-        return num1 - num2;
-    }
-    public int DivideOperator(int num1, int num2){
-        return num1 / num2;
-    }
-    public int MultiplyOperator(int num1, int num2){
-        return num1 * num2;
-    }
-    public int ModulusOperator(int num1, int num2){
-        return num1 % num2;
-    }    
-}
-}
-
-namespace MainNamespace{
-    using Arithmetic;
+﻿namespace mainNamespace{
+    using arithmetic;
+    using relational;
+    using logical;
+    using tryCatchExample;
     class MyMainClass{
     static void Main(string[] args)
     {
-        Operations value = new Operations();
-        Console.WriteLine(value.PlusOperator(10,20));
-        Console.WriteLine(value.MinusOperator(10,20));
-        Console.WriteLine(value.DivideOperator(100,20));
-        Console.WriteLine(value.MultiplyOperator(10,20));
-        Console.WriteLine(value.ModulusOperator(10,20));
+        ArithmeticOperations aOperation = new ArithmeticOperations();
+        Console.WriteLine(aOperation.PlusOperator(100,20));
+        Console.WriteLine(aOperation.MinusOperator(10,20));
+        Console.WriteLine(aOperation.DivideOperator(100,20));
+        Console.WriteLine(aOperation.MultiplyOperator(10,20));
+        Console.WriteLine(aOperation.ModulusOperator(10,20));
+        RelationalOperations rOperation = new RelationalOperations();
+        Console.WriteLine(rOperation.greaterThanOperator(30,60));
+        Console.WriteLine(rOperation.lessThanOperator(30,60));
+        Console.WriteLine(rOperation.greaterOrEqualToOperator(30,60));
+        Console.WriteLine(rOperation.lessOrEqualToOperator(30,60));
+        Console.WriteLine(rOperation.equalToOperator(30,60));
+        Console.WriteLine(rOperation.notEqualToOperator(30,60));
+        LogicalOperations lOperation = new LogicalOperations();
+        Console.WriteLine(lOperation.andOperator(true,true));
+        Console.WriteLine(lOperation.orOperator(true,true));
+        Console.WriteLine(lOperation.notOperator(false));
+        TryCatchClass.RunTryCatchExample();
     }
     }
 }
